@@ -11,7 +11,7 @@ Description: This workflow takes alignment data and hotspot calls from assays of
  elements (e.g. enhancers and promoters) that differ across cell and tissue type.
 URL: https://github.com/Mathelab/ALTRE
 BugReports: https://github.com/Mathelab/ALTRE/issues
-Depends: R (>= 3.1.0)
+Depends: R (>= 3.2.0)
 Imports:
     shiny,
     shinydashboard,
@@ -29,16 +29,18 @@ Imports:
     GenomicRanges,
     Rsamtools,
     readr,
-    org.Hs.eg.db,
     clusterProfiler,
     ensembldb,
+    org.Hs.eg.db,
     EnsDb.Hsapiens.v75,
     tidyr,
     GO.db,
     grid,
     venneuler,
     stringr,
-    tibble
+    tibble,
+    BiocInstaller
+Remotes: bioc::release/or.Hs.eg.db
 License: GPL-2
 LazyData: TRUE
 RoxygenNote: 5.0.1
