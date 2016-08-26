@@ -1,7 +1,7 @@
 Package: ALTRE
 Type: Package
 Title: Workflow for Identifying Regulatory Elements from Chromatin Accessibility Assay Data
-Version: 0.99.0
+Version: 0.99.0.1
 Authors@R: c(
  person("Elizabeth", "Baskin", email = "Elizabeth.Baskin@osumc.edu", role = "aut"),
  person("Rick", "Farouni", email = "farouni.1@osu.edu", role = "aut"),
@@ -40,7 +40,6 @@ Imports:
     stringr,
     tibble,
     BiocInstaller
-Remotes: bioc::release/org.Hs.eg.db
 License: GPL-2
 LazyData: TRUE
 RoxygenNote: 5.0.1
